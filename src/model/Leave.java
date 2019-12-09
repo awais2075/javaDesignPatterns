@@ -24,12 +24,19 @@ public class Leave {
         this.leaveStatus = leaveStatus;
     }
 
+    public Leave(Date leaveDate, String leaveReason) {
+        this.leaveDate = leaveDate;
+        this.leaveReason = leaveReason;
+    }
+
     public Leave(Date leaveDate, String leaveReason, String leaveStatus, String userName) {
         this.leaveDate = leaveDate;
         this.leaveReason = leaveReason;
         this.leaveStatus = leaveStatus;
         this.userName = userName;
     }
+
+
 
     public int getLeaveId() {
         return leaveId;

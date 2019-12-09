@@ -1,10 +1,11 @@
 package _interface;
 
-import model.Meeting;
+
+import javax.swing.*;
 
 public interface AddListener<Model> {
 
     void onAdd(Model model);
 
-    void onCancel();
+    void onCancel(JFrame jFrame);
 }
