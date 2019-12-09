@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2019 at 06:24 PM
+-- Generation Time: Dec 09, 2019 at 06:44 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.1.27
 
@@ -41,7 +41,9 @@ CREATE TABLE `attendance` (
 --
 
 INSERT INTO `attendance` (`attendance_id`, `attendance_date`, `user_id`) VALUES
-(3, '2019-12-09', 1);
+(34, '2019-12-09', 1),
+(39, '2019-12-09', 18),
+(41, '2019-12-09', 2);
 
 -- --------------------------------------------------------
 
@@ -77,7 +79,8 @@ INSERT INTO `leave_table` (`leave_id`, `leave_date`, `reason`, `user_id`, `statu
 (13, '2019-09-24', 'asfsaf', 1, 'pending'),
 (14, '2019-09-24', 'sadfasfd', 1, 'pending'),
 (15, '2019-09-24', 'afsdaf', 1, 'pending'),
-(16, '2019-09-24', '2432423424', 1, 'pending');
+(16, '2019-09-24', '2432423424', 1, 'pending'),
+(17, '2019-09-24', 'asfdasf', 18, 'pending');
 
 -- --------------------------------------------------------
 
@@ -142,7 +145,8 @@ INSERT INTO `users` (`user_id`, `user_name`, `first_name`, `last_name`, `email`,
 (12, 'taylor123', 'taylor', 'swift', 'taylor123@gmail.com', 'abcd1234', 'registered'),
 (13, 'shawn123', 'shawn', 'mendes', 'shawn123@gmail.com', 'abcd1234', 'unregistered'),
 (14, 'test123', 'test', 'mail', 'test@mail.com', 'abcd1234', 'registered'),
-(15, 'kelly', 'kelly', 'brook', 'kelly123@mail.com', 'abcd1234', 'pending');
+(15, 'kelly', 'kelly', 'brook', 'kelly123@mail.com', 'abcd1234', 'pending'),
+(18, 'computer', 'computer', 'computer', 'computer@mail.com', 'abcd1234', 'registered');
 
 --
 -- Indexes for dumped tables
@@ -153,8 +157,7 @@ INSERT INTO `users` (`user_id`, `user_name`, `first_name`, `last_name`, `email`,
 --
 ALTER TABLE `attendance`
   ADD PRIMARY KEY (`attendance_id`),
-  ADD UNIQUE KEY `attendance_date` (`attendance_date`),
-  ADD KEY `user_id` (`user_id`);
+  ADD UNIQUE KEY `user_id` (`user_id`);
 
 --
 -- Indexes for table `leave_table`
@@ -184,13 +187,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `attendance`
 --
 ALTER TABLE `attendance`
-  MODIFY `attendance_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `attendance_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
 -- AUTO_INCREMENT for table `leave_table`
 --
 ALTER TABLE `leave_table`
-  MODIFY `leave_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `leave_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `meeting`
@@ -202,7 +205,7 @@ ALTER TABLE `meeting`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- Constraints for dumped tables

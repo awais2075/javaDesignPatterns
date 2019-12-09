@@ -1,70 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdced724-ea62-4ddb-b60f-cc287cd33976" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/employeeManagementSystem/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/_interface/AddListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/employeeManagementSystem/_interface/AddListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/_interface/ItemClickListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/employeeManagementSystem/_interface/ItemClickListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/_interface/UpdateListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/customList/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/customList/BookRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/customList/JListCustomRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/layouts/LayoutPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/layouts/SwingLayoutDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/layouts/SwingLayoutDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/model/Leave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/employeeManagementSystem/model/Leave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/AddMeeting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/AddMeetingUi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/AdminDashboardRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/AdminDashboardUi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/AdminDashboardUi_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/BaseUi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/Dashboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/LeaveListRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/LeaveStatus$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/LeaveStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/LeaveStatusUi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/MeetingSchedule$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/MeetingSchedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/MeetingScheduleRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/MeetingScheduleUi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/SignIn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/SignInUi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/SignUp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/SignUpUi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/ui/UserDashboardUi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/employeeManagementSystem/util/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/employeeManagementSystem/util/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_interface/AddListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_interface/AddListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_interface/ItemClickListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_interface/UpdateListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customList/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customList/BookRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customList/JListCustomRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/LayoutPractice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/SwingLayoutDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Leave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Leave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/AddMeeting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/AddMeetingUi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/AdminDashboardRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/AdminDashboardUi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/AdminDashboardUi_.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/BaseUi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Dashboard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/LeaveListRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/LeaveStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/LeaveStatusUi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/MeetingSchedule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/MeetingScheduleRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/MeetingScheduleUi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/SignIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/frame/SignInFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/SignInUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/panel/SignInPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/frame/SignUpFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/SignUpUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/panel/SignUpPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/UserDashboardUi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Utils.java" afterDir="false" />
-    </list>
+    <list default="true" id="bdced724-ea62-4ddb-b60f-cc287cd33976" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/frame/DashboardFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="227" column="108" selection-start-line="227" selection-start-column="108" selection-end-line="227" selection-end-column="108" />
+            <state relative-caret-position="12">
+              <caret line="419" selection-start-line="419" selection-end-line="419" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getMeetingList#0;class#DashboardFrame#0" />
@@ -131,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/panel/LeavePanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -236,6 +173,7 @@
       <find>onAdd</find>
       <find>addLis</find>
       <find>protected void addModel</find>
+      <find>getAt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -326,37 +264,6 @@
               <item name="employeeManagementSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="employeeManagementSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="employeeManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="employeeManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="employeeManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="employeeManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="decoration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="employeeManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="employeeManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="employeeManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="employeeManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="employeeManagementSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="employeeManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="panel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -486,7 +393,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8366534" visible="true" weight="0.26626325" />
       <window_info id="Structure" order="1" sideWeight="0.16334662" side_tool="true" weight="0.26626325" />
@@ -498,7 +404,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25510204" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30612245" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.49489796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -581,17 +487,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ui/frame/DashboardFrame.java</url>
-          <line>229</line>
+          <line>419</line>
           <properties />
-          <option name="timeStamp" value="27" />
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="jList" language="JAVA" />
-        <watch expression="jList" language="JAVA" />
-        <watch expression="jList.getModel()" language="JAVA" />
+        <watch expression="User.getInstance().getUserId()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
@@ -601,6 +505,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>User.getInstance().getUserId()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>jList.getModel()</expression-string>
         <language-id>JAVA</language-id>
@@ -646,13 +555,13 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
+    </expressions>
+    <expressions id="setValue">
       <expression>
-        <expression-string>resultSet.getObject(4)</expression-string>
+        <expression-string>&quot;SELECT   b.*, a.first_name, a.last_name FROM users a, attendance b WHERE b.user_id = a.user_id&quot;</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-    </expressions>
-    <expressions id="setValue">
       <expression>
         <expression-string>&quot;SELECT   b.*, a.first_name, a.last_name FROM users a, leave_table b WHERE b.user_id = 1&quot;</expression-string>
         <language-id>JAVA</language-id>
@@ -1112,20 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/panel/LeavePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2350#2351#0" expanded="true" />
-            <element signature="e#2405#2406#0" expanded="true" />
-            <element signature="e#2453#2454#0" expanded="true" />
-            <element signature="e#2496#2497#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/panel/AddLeavePanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1138,8 +1033,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/frame/DashboardFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="227" column="108" selection-start-line="227" selection-start-column="108" selection-end-line="227" selection-end-column="108" />
+        <state relative-caret-position="12">
+          <caret line="419" selection-start-line="419" selection-end-line="419" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getMeetingList#0;class#DashboardFrame#0" />
@@ -1148,6 +1043,20 @@
             <element signature="method#isUserStatusUpdated#0;class#DashboardFrame#0" />
             <element signature="method#isLeaveStatusUpdated#0;class#DashboardFrame#0" />
             <element signature="method#isMeetingAdded#0;class#DashboardFrame#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/panel/LeavePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2350#2351#0" expanded="true" />
+            <element signature="e#2405#2406#0" expanded="true" />
+            <element signature="e#2453#2454#0" expanded="true" />
+            <element signature="e#2496#2497#0" expanded="true" />
           </folding>
         </state>
       </provider>
