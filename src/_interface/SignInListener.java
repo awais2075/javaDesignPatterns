@@ -6,5 +6,4 @@ public interface SignInListener {
 
     void onSignUp();
 
-    void onSignOut();
 }

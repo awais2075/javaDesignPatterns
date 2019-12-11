@@ -111,8 +111,4 @@ public class SignInFrame implements SignInListener {
         new SignUpFrame();
     }
 
-    @Override
-    public void onSignOut() {
-
-    }
 }

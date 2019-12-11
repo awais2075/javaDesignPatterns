@@ -58,7 +58,7 @@ public class SignUpFrame implements SignInListener {
 
     private boolean isRegistrationSuccessful() {
         Connection connection = DatabaseHandler.getInstance().getConnection();
-        String sqlQuery = "INSERT INTO users(user_name, first_name, last_name, email, password) VALUES (?, ?, ?, ?, ?)";
+        String sqlQuery = "INSERT INTO users(user_name, first_name, last_name, email, address,phone_no, designation, password) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         int result = -1;
         try {
             PreparedStatement statement = connection.prepareStatement(sqlQuery);
@@ -66,7 +66,10 @@ public class SignUpFrame implements SignInListener {
             statement.setString(2, User.getInstance().getFirstName());
             statement.setString(3, User.getInstance().getLastName());
             statement.setString(4, User.getInstance().getEmail());
-            statement.setString(5, User.getInstance().getPassword());
+            statement.setString(5, User.getInstance().getAddress());
+            statement.setString(6, User.getInstance().getPhoneNumber());
+            statement.setString(7, User.getInstance().getDesignation());
+            statement.setString(8, User.getInstance().getPassword());
             result = DatabaseHandler.getInstance().insertData(statement);
             Utils.printInfo(result + "");
         } catch (SQLException exception) {
@@ -75,8 +78,4 @@ public class SignUpFrame implements SignInListener {
         return result == 1;
     }
 
-    @Override
-    public void onSignOut() {
-
-    }
 }

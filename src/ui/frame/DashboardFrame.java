@@ -336,9 +336,12 @@ public class DashboardFrame extends JFrame implements ItemClickListener, AddList
                 String firstName = resultSet.getString("first_name");
                 String lastName = resultSet.getString("last_name");
                 String email = resultSet.getString("email");
+                String address = resultSet.getString("address");
+                String phoneNumber = resultSet.getString("phone_no");
+                String designation = resultSet.getString("designation");
                 String status = resultSet.getString("status");
 
-                userList.add(new User(userId, userName, firstName, lastName, email, status));
+                userList.add(new User(userId, userName, firstName, lastName, email,address, phoneNumber, designation, status));
             }
         } catch (SQLException exception) {
             System.out.println(exception.getMessage());
